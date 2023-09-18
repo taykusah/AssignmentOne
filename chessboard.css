@@ -1,0 +1,52 @@
+.chessboard {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 48;
+   margin: 0;
+   display: inline-block;
+   border: 2px solid #000;
+   border-spacing: 0;
+   box-sizing: border-box;
+}
+
+.row {
+   display: flex;
+}
+
+.square {
+   width: 60px;
+   height: 60px;
+
+}
+
+.brown {
+   background-color: #8B4513;
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.black {
+   background-color: #000000;
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+
+}
+
+.row1-piece {
+   color: antiquewhite;
+}
+
+.row2-piece {
+   color: antiquewhite;
+}
+
+.row4-piece {
+   color: aqua;
+}
+
+.row5-piece {
+   color: aqua;
+}
